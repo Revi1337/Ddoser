@@ -1,8 +1,3 @@
-# Ddoser
-
-## Issue 1 Create IP Header
-
-```python
 from socket import gethostname, gethostbyname, inet_aton
 from struct import pack
 from typing_extensions import Self
@@ -99,4 +94,3 @@ if __name__ == "__main__":
     print(pck2.setProtocol("tcp").generateTcpHeader())
     
     
-```
